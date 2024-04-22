@@ -1,0 +1,11 @@
+.flex-container {
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: column-reverse;
+}
+
+
+.grid-container {
+    display: grid;
+    place-items: center;
+}
