@@ -1,0 +1,59 @@
+.box1 {
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+
+/* 1 - Top/Bottom and Left/Right */
+.box2 {
+    padding: 20px 40px;
+}
+
+
+/* 2 - All sides */
+.box2 {
+    padding: 60px;
+}
+
+
+/* 3 - Specifying all sides(Top, Right, Bottom, Left) */
+.box2 {
+    padding: 15px 25px 35px 45px;
+}
+
+
+.box3 {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+
+.box4 {
+    margin: 40px 35px 30px 25px;
+}
+
+/* Shorthand method */
+.mix-borders {
+    border: 1px solid  rgb(223, 223, 223);
+}
+
+
+/* Specify all sides */
+.mix-borders {
+    border-width: 5px;
+    border-color: brown;
+    border-style: solid dashed double dotted;
+    border-radius: 10px;
+}
+
+.circle-container {
+    background-color: pink;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
